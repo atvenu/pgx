@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
+	"github.com/atvenu/pgx/internal/pgio"
 )
 
 type FunctionCallResponse struct {

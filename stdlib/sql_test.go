@@ -19,12 +19,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/jackc/pgx/v5/stdlib"
-	"github.com/jackc/pgx/v5/tracelog"
+	"github.com/atvenu/pgx"
+	"github.com/atvenu/pgx/pgconn"
+	"github.com/atvenu/pgx/pgtype"
+	"github.com/atvenu/pgx/pgxpool"
+	"github.com/atvenu/pgx/stdlib"
+	"github.com/atvenu/pgx/tracelog"
 )
 
 func openDB(t testing.TB, opts ...stdlib.OptionOpenDB) *sql.DB {

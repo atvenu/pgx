@@ -8,7 +8,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
+	"github.com/atvenu/pgx/internal/pgio"
 )
 
 type Float4 struct {

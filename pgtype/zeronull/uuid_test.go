@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v5/pgtype/zeronull"
-	"github.com/jackc/pgx/v5/pgxtest"
+	"github.com/atvenu/pgx/pgtype/zeronull"
+	"github.com/atvenu/pgx/pgxtest"
 )
 
 func TestUUIDTranscode(t *testing.T) {

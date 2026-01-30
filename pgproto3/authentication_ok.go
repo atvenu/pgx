@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
+	"github.com/atvenu/pgx/internal/pgio"
 )
 
 // AuthenticationOk is a message sent from the backend indicating that authentication was successful.

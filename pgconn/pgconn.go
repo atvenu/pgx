@@ -18,11 +18,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jackc/pgx/v5/internal/iobufpool"
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/pgconn/ctxwatch"
-	"github.com/jackc/pgx/v5/pgconn/internal/bgreader"
-	"github.com/jackc/pgx/v5/pgproto3"
+	"github.com/atvenu/pgx/internal/iobufpool"
+	"github.com/atvenu/pgx/internal/pgio"
+	"github.com/atvenu/pgx/pgconn/ctxwatch"
+	"github.com/atvenu/pgx/pgconn/internal/bgreader"
+	"github.com/atvenu/pgx/pgproto3"
 )
 
 const (

@@ -3,8 +3,8 @@ package pgx
 import (
 	"errors"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/atvenu/pgx/internal/pgio"
+	"github.com/atvenu/pgx/pgtype"
 )
 
 // PostgreSQL format codes

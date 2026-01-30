@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/atvenu/pgx/pgtype"
 )
 
 type Int2 int16

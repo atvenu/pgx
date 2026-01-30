@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
-	_ "github.com/jackc/pgx/v5/stdlib"
+	"github.com/atvenu/pgx"
+	_ "github.com/atvenu/pgx/stdlib"
 )
 
 func skipCockroachDB(t testing.TB, msg string) {

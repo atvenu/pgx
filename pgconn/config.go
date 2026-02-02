@@ -20,8 +20,8 @@ import (
 
 	"github.com/jackc/pgpassfile"
 	"github.com/jackc/pgservicefile"
-	"github.com/jackc/pgx/v5/pgconn/ctxwatch"
-	"github.com/jackc/pgx/v5/pgproto3"
+	"github.com/atvenu/pgx/pgconn/ctxwatch"
+	"github.com/atvenu/pgx/pgproto3"
 )
 
 type (

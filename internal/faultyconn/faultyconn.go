@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/jackc/pgx/v5/pgproto3"
+	"github.com/atvenu/pgx/pgproto3"
 )
 
 // Conn is a wrapper for a net.Conn that allows inspection and modification of messages between a PostgreSQL client and

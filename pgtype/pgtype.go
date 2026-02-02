@@ -125,6 +125,7 @@ const (
 	TstzmultirangeArrayOID = 6153
 	DatemultirangeArrayOID = 6155
 	Int8multirangeArrayOID = 6157
+	TsvectorOID			   = 3614
 )
 
 type InfinityModifier int8

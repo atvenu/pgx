@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgxtest"
+	"github.com/atvenu/pgx"
+	"github.com/atvenu/pgx/pgconn"
+	"github.com/atvenu/pgx/pgxtest"
 	"github.com/stretchr/testify/require"
 )
 

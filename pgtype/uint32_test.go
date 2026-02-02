@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/pgxtest"
+	"github.com/atvenu/pgx/pgtype"
+	"github.com/atvenu/pgx/pgxtest"
 )
 
 func TestUint32Codec(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/atvenu/pgx"
+	"github.com/atvenu/pgx/pgtype"
 )
 
 func TestTSVectorComprehensive(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/jackc/pgx/v5
+module github.com/atvenu/pgx
 
 go 1.24.0
 

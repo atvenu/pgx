@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/atvenu/pgx"
+	"github.com/atvenu/pgx/pgxpool"
 	"github.com/stretchr/testify/require"
 )
 

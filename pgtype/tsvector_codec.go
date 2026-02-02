@@ -501,7 +501,8 @@ func (c TSVectorCodec) DecodeValue(m *Map, oid uint32, format int16, src []byte)
 	case BinaryFormatCode:
 		_,err = decodeTSVectorBinary(src)
 	case TextFormatCode:
-		err = tsv.ScanTSVector(src)
+		err = m.PlanScan(oid, format, &tsv).Scan(src, &tsv)
+
 	default:
 		return nil, fmt.Errorf("unknown format code %d", format)
 	}

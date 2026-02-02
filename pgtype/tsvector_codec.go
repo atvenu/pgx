@@ -488,3 +488,27 @@ func normalizeTSVector(tsv TSVector) TSVector {
 
 	return normalized
 }
+
+func (c TsVectorCodec) DecodeValue(m *Map, oid uint32, format int16, src []byte) (any, error) {
+	if src == nil {
+		return nil, nil
+	}
+
+	var tsv TsVector
+	var err error
+
+	switch format {
+	case BinaryFormatCode:
+		err = decodeTsVectorBinary(src, &tsv)
+	case TextFormatCode:
+		err = tsv.ScanTsVector(string(src))
+	default:
+		return nil, fmt.Errorf("unknown format code %d", format)
+	}
+
+	if err != nil {
+		return nil, err
+	}
+
+	return tsv, nil
+}
